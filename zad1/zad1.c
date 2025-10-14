@@ -1,16 +1,15 @@
-
 #define _CRT_NO_SECURE_WARNINGS
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 
-#define max_string 50
+#define MAX_LEN 50
 
-typedef struct student {
-	char ime[max_string];
-	char prezime[max_string];
-	int bodovi;
-}stud;
+typedef struct {
+    char ime[MAX_LEN];
+    char prezime[MAX_LEN];
+    int bodovi;
+} stud;
 
 //funkcija koja broji studente u datoteci
 
@@ -26,18 +25,53 @@ int brojStudenata(){
 			br++;
 		}
 	}
-	// Ako datoteka nije prazna i ne završava novim redom, povećaj broj za 1
-	/*fseek(file, -1, SEEK_END);
-	if(ftell(file) > 0 && fgetc(file) != '\n') {
-		br++;
-	}
-		br++;
-	*/
+	
 	fclose(dat);
 	return br;
 }
 
+
+//Funkcija za unos studenata u program
+stud* unosStudenata(FILE *dat, int n){
+
+	stud* studenti = (stud*)malloc(n * sizeof(stud));
+	if(studenti == NULL){
+		return NULL;
+	}
+
+	for(int i = 0;i<n;i++){
+		fscanf(dat, "%s %s %d",studenti[i].ime, studenti[i].prezime, &studenti[i].bodovi);
+	}
+	return studenti;
+}
+
+
+
+//Funkcija za ispis svih studenata i relativnih bodova
+void printStudent(stud* studenti, int br, int max) {
+
+    for (int i = 0; i < br; i++) {
+
+        float rel = (float)studenti[i].bodovi / max * 100;
+
+        printf("Ime i prezime: %s %s\n", studenti[i].ime, studenti[i].prezime);
+        printf("Broj bodova: %d\n", studenti[i].bodovi);
+        printf("Relativan broj bodova: %.2f%%\n\n", rel);
+
+    }
+}
+
 int main() 
 {
+	
+	FILE *dat = fopen("Studenti.txt", "r");
+
+	int br = brojStudenata();
+
+	stud* studenti = unosStudenata(dat, br);
+
+	printStudent(studenti, br, 50);
+
+	fclose(dat);
 	return 0;
 }
