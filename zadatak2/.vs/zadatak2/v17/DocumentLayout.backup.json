@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Korisnik\\Desktop\\StrukturePodataka\\zadatak2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{24514013-1AA9-49E2-877D-0245E2C919BB}|zadatak2.vcxproj|C:\\Users\\Korisnik\\Desktop\\StrukturePodataka\\zadatak2\\zad2.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{24514013-1AA9-49E2-877D-0245E2C919BB}|zadatak2.vcxproj|solutionrelative:zad2.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "zad2.c",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\Desktop\\StrukturePodataka\\zadatak2\\zad2.c",
+              "RelativeDocumentMoniker": "zad2.c",
+              "ToolTip": "C:\\Users\\Korisnik\\Desktop\\StrukturePodataka\\zadatak2\\zad2.c",
+              "RelativeToolTip": "zad2.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-10-21T18:07:25.684Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

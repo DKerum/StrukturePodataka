@@ -44,7 +44,7 @@ stud* unosStudenata(FILE *dat, int n){
 	}
 
 	for(int i = 0;i<n;i++){
-		fscanf(dat, "%s %s %d",studenti[i].ime, studenti[i].prezime, &studenti[i].bodovi);
+		fscanf_s(dat, "%s %s %d",studenti[i].ime, studenti[i].prezime, &studenti[i].bodovi);
 	}
 	return studenti;
 }

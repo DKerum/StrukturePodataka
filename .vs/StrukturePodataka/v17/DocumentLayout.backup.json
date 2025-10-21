@@ -26,15 +26,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "zad2.c",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\Desktop\\StrukturePodataka\\zad2\\zad2.c",
+              "RelativeDocumentMoniker": "zad2\\zad2.c",
+              "ToolTip": "C:\\Users\\Korisnik\\Desktop\\StrukturePodataka\\zad2\\zad2.c",
+              "RelativeToolTip": "zad2\\zad2.c",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAEYAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-10-20T18:59:19.8Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -46,8 +55,7 @@
               "RelativeToolTip": "zad2\\CppProperties.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-10-21T14:51:30.504Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-21T14:51:30.504Z"
             },
             {
               "$type": "Document",
@@ -72,19 +80,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2025-10-20T18:59:34.586Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "zad2.c",
-              "DocumentMoniker": "C:\\Users\\Korisnik\\Desktop\\StrukturePodataka\\zad2\\zad2.c",
-              "RelativeDocumentMoniker": "zad2\\zad2.c",
-              "ToolTip": "C:\\Users\\Korisnik\\Desktop\\StrukturePodataka\\zad2\\zad2.c",
-              "RelativeToolTip": "zad2\\zad2.c",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKgAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2025-10-20T18:59:19.8Z",
-              "EditorCaption": ""
             }
           ]
         }
