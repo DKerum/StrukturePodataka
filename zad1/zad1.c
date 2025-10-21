@@ -18,7 +18,7 @@ int brojStudenata(){
 	if(dat == NULL)
 		return -1;
 	int br = 0;
-	char buffer[150];
+	//char buffer[150];
 	int c;
 	while((c = fgetc(dat)) != EOF) {
 		if(c == '\n') {
@@ -29,6 +29,10 @@ int brojStudenata(){
 	fclose(dat);
 	return br;
 }
+//bolja praksa koristiti buffer
+//definirati sve konstante npr. za buffer, predložila 1024
+//definiraj na vrhu filea sto znaci error -1 
+	//define File cant open (-1)
 
 
 //Funkcija za unos studenata u program
@@ -44,6 +48,7 @@ stud* unosStudenata(FILE *dat, int n){
 	}
 	return studenti;
 }
+//Ne koristit file pointere nego svaki put fopen i fclose
 
 
 
@@ -61,6 +66,8 @@ void printStudent(stud* studenti, int br, int max) {
     }
 }
 
+//Oslobodi memoriju kad zavrsis sa pointeron na studenti sa free
+
 int main() 
 {
 	
@@ -75,3 +82,4 @@ int main()
 	fclose(dat);
 	return 0;
 }
+//deklariraj funkcije prije maina pa piši nakon maina
