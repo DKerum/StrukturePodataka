@@ -1,0 +1,6 @@
+﻿  zad5.c
+C:\Users\Korisnik\Desktop\StrukturePodataka\Zadatak5\zad5.c(7,9): warning C4005: 'EXIT_FAILURE': macro redefinition
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\ucrt\stdlib.h(53,9):
+      see previous definition of 'EXIT_FAILURE'
+  
+  Zadatak5.vcxproj -> C:\Users\Korisnik\Desktop\StrukturePodataka\Zadatak5\x64\Debug\Zadatak5.exe
