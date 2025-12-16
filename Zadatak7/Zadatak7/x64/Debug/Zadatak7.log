@@ -1,0 +1,3 @@
+﻿  zad7.c
+C:\Users\Korisnik\Desktop\StrukturePodataka\Zadatak7\zad7.c(193,16): warning C4047: '=': 'position' differs in levels of indirection from 'int'
+  Zadatak7.vcxproj -> C:\Users\Korisnik\Desktop\StrukturePodataka\Zadatak7\x64\Debug\Zadatak7.exe
