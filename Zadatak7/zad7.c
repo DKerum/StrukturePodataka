@@ -169,6 +169,7 @@ void Del(position current) {
 
 	Del(current->sibling);
 	Del(current->child);
+	free(current);
 }
 
 int Command(position current, Sposition SHead) {
