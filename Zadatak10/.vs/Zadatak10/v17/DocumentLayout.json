@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Korisnik\\Desktop\\StrukturePodataka\\Zadatak10\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F6241361-7819-4E32-A75D-A1AD818AD0C1}|Zadatak10.vcxproj|C:\\Users\\Korisnik\\Desktop\\StrukturePodataka\\Zadatak10\\zad10.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F6241361-7819-4E32-A75D-A1AD818AD0C1}|Zadatak10.vcxproj|solutionrelative:zad10.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "zad10.c",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\Desktop\\StrukturePodataka\\Zadatak10\\zad10.c",
+              "RelativeDocumentMoniker": "zad10.c",
+              "ToolTip": "C:\\Users\\Korisnik\\Desktop\\StrukturePodataka\\Zadatak10\\zad10.c",
+              "RelativeToolTip": "zad10.c",
+              "ViewState": "AgIAADsBAAAAAAAAAAAAAKIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2026-01-20T15:33:18.144Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
